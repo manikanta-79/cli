@@ -1,0 +1,10 @@
+scoop install spicetify-cli
+spicetify backup apply
+brew install khanhas/tap/spicetify-cli
+spicetify backup apply
+curl -fsSL https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.sh | sh
+spicetify backup apply
+spicetify config current_theme THEME_NAME
+spicetify apply
+spicetify config extensions EXTENSION_NAME.js
+spicetify apply
